@@ -29,7 +29,7 @@ export default {
   }),
   computed: {
     openClass() {
-      console.log("this.isOpen", this.isOpen);
+      // console.log("this.isOpen", this.isOpen);
       return this.isOpen ? "translate-x-0" : "-translate-x-full	";
     }
   }

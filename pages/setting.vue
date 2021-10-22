@@ -1,6 +1,6 @@
 <template>
-  <Layout>
-    <Tutorial />
+  <Layout className="space-y-4">
+    <div class="text-4xl">Setting</div>
   </Layout>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <Layout className="space-y-4">
-    <div class="text-4xl">Dashboard</div>
+    <p class="text-4xl">Dashboard</p>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
       <StatCard v-for="info in stats" :info="info" :key="info.title" />
     </div>
@@ -25,7 +25,7 @@ export default {
       },
       {
         title: "Amount",
-        amount: "12,300"
+        amount: "100,300"
       },
       {
         title: "Transactions",
