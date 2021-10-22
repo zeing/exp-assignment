@@ -7,16 +7,26 @@
         <div class="cursor-pointer" @click="$emit('update:isOpen', !isOpen)">
           =
         </div>
-        <div>EXP</div>
+        <NuxtLink to="/" class="text-lg font-bold hover:text-gray-600">
+          EXP Assignment
+        </NuxtLink>
       </div>
+      <MenuDropdown>
+        zeing@outlook.com
+      </MenuDropdown>
     </div>
   </div>
 </template>
 
 <script>
+import MenuDropdown from "./MenuDropdown.vue";
+
 export default {
   props: {
     isOpen: Boolean
+  },
+  components: {
+    MenuDropdown
   }
 };
 </script>
